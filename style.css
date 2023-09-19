@@ -645,7 +645,6 @@ body{
     justify-content: space-around;
     align-items: center;
     background-color:rgb(203, 224, 227);
-    border: 2px solid green;
     box-shadow:10px 10px 15px rgba(0, 0, 0 , .2) ;
 }
 .login, .signup{
@@ -667,7 +666,6 @@ body{
 }
 .moveslider{
     left: 190px;
-    border: 2px solid black;
 }
 .form-section{
     height: 300px;
@@ -1027,6 +1025,42 @@ body{
         margin-bottom: 20px;
         font-size: 12px;
     }
+    /*home-page*/
+    .email{
+        font-size: 7px;
+    }
+    .container{
+        box-shadow:  none;
+    }
+    .signup-box input{
+        width: 198px;
+        /* padding-left:3px; */
+        font-size: 14px;
+        height: 37px;
+        border-radius: 20px;
+    }
+    .signup-box{
+        gap:15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 120px;
+    }
+    .login-box input{
+        width: 155px;
+        font-size: 12px;
+        height: 37px;
+        border-radius: 20px;
+    }
+    .moveslider{
+        left: 134px;
+    }
+    .login{
+        font-size: 13px;
+    }
+    .signup{
+        font-size: 13px;
+    }
 }
 
 
@@ -1244,5 +1278,14 @@ body{
     .bodyRighItem h1{
         margin-bottom: 4px;
         font-size: 11px;
+    }
+    .moveslider{
+        left: 135px;
+    }
+    .login{
+        font-size: 13px;
+    }
+    .signup{
+        font-size: 13px;
     }
 } 
