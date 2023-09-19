@@ -36,7 +36,7 @@ login && login.addEventListener("click",()=>{
 
 
 let subMenu=document.querySelector(".sub-menu-wrap");
-let usrImg=document.querySelector(".userImg");
+let usrImg=document.querySelector(".user-img");
 usrImg && usrImg.addEventListener("click",display=()=>{
     if(subMenu.style.display==='none'){
         subMenu.style.display='block';
