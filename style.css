@@ -11,13 +11,13 @@ body{
     /* background-color: rgb(247, 219, 184); */
     background: linear-gradient(rgba(194, 219, 223, 0.938),rgba(249, 235, 217, 0.822));
     width: 100%;
-    height: 100%;
     font-family: 'Roboto', sans-serif;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    min-height: 100vh;
 }
 .header{
     display: flex;
@@ -29,8 +29,7 @@ body{
     box-shadow: 0 7px  10px rgba(0, 0, 0 , .2);
     width: 100%;
     /* background: linear-gradient(rgba(252, 196, 189, 0.885),rgba(255, 229, 197, 0.822)); */
-    position: relative;
-    position: sticky;
+    position: fixed;
     top: 0;
     background-color: rgb(209, 225, 227);
     opacity: 0.9;
@@ -142,6 +141,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    margin-top: 100px;
 }
 /*left*/
 
@@ -784,7 +784,7 @@ body{
         box-shadow:10px 7px 12px rgba(0, 0, 0 , .2) ;
         padding: 10px 20px;
         margin-right: 12px;
-        margin-top: 50px;
+        /* margin-top: 50px; */
     }
     .book-collections img{
         width: 69px;
@@ -966,7 +966,7 @@ body{
         flex-direction: column;
         align-items: center;
         box-shadow:10px 7px 12px rgba(0, 0, 0 , .2) ;
-        margin-top: 36px;
+        /* margin-top: 36px; */
     }
     .body-right-container{
         width: 100%;
@@ -1014,11 +1014,9 @@ body{
     .view-container{
         margin-bottom: 60px;
     }
-    .release-book-container{
-        margin-top: -56px;
-    }
+    
     .right-bottom{
-        margin-top: -37px;
+        /* margin-top: -37px; */
     }
     .right-bottom h2{
         font-size: 12px;
